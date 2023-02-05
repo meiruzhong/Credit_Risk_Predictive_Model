@@ -25,3 +25,11 @@ The features are:
 9. Purpose (text: car, furniture/equipment, radio/TV, domestic appliances, repairs, education, business, vacation/others)
 
 10. Risk (good, bad)
+
+The process of building model:
+
+(1)Performed data wrangling by fulfilling null values and conducted exploratory data analysis by plotting target and features’ distribution. Sensed that most clients loaned cars, radio/TV, and equipment.
+
+(2)Transformed categorical data to numeric and split to train and test dataset. Built 7 machine learning models and compared to find GaussianNB had the highest fit score with 0.75  followed by xgboost.
+
+(3)Tuned models’ parameters and confirmed GaussianNB was also the best model for predicting customers' credit quality, with an F1 score of 0.64.
