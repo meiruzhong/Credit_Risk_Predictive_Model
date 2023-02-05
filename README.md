@@ -1,6 +1,8 @@
 #Credit_Risk_Predictive_Model
 
-The original dataset contains 1000 entries with 10 variables and this python project is predicting German credit risk. 
+This dataset contains 1000 entries with 10 variables. Each entry represents a person who takes a credit by a bank. Each person is classified as good or bad credit risks according to the set of attributes. The original dataset is prepared by Prof. Hofmann. 
+
+Source: https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29
 
 The features are:
 
